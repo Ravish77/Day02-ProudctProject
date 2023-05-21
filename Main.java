@@ -42,7 +42,7 @@ public class Main {
         //To get products with particular text
 	System.out.println();
         System.out.println("================================================================");
-        System.out.println("PRODUCTS WITH SPECIFIC PLACE: ");
+        System.out.println("PRODUCTS WITH SPECIFIC TEXT: ");
         System.out.println("================================================================");
         List<Product> prods = service.getProductWithText("black");
         for(Product product : prods){
